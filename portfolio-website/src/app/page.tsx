@@ -3,31 +3,27 @@ import Navbar from './navbar'
 
 export default function Home() {
     return (
-        <main>
+        <div className="flex flex-col min-h-screen bg-beige">
             <Navbar />
-            <div className="flex justify-center mt-3 mb-8">
-                <Image
-                    src="/eric-wang.jpg"
-                    alt="Picture of the author"
-                    width={500}
-                    height={500}
-                    className="rounded-lg"
-                />
-            </div>
-            <div className="flex justify-center">
-                <div
-                    className="bg-neutral-200 flex items-center justify-center font-mono px-4 py-6 rounded-lg shadow max-w-xl mx-auto"
-                    style={{
-                        minHeight: '4rem',
-                        lineHeight: '1.5',
-                        textAlign: 'center',
-                    }}
-                >
-                    Hi! I am an undergrad at Harvard studying Computer Science
-                    and Math.
+            <div className="flex flex-1 justify-center">
+                <div className="w-full max-w-2xl p-4">
+                    <main>
+                        <h1 className="text-xl font-bold mb-4">
+                            Welcome to My Site
+                        </h1>
+                        <p>
+                            Hello! I'm an undergrad at Harvard studying Computer
+                            Science and Math.
+                        </p>
+                        <p>
+                            Here's more about my projects, interests, and
+                            experiences.
+                        </p>
+                    </main>
+                    {/* Additional sections or footer can go here */}
                 </div>
             </div>
-        </main>
+        </div>
     )
 }
 
