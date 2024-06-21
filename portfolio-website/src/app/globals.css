@@ -8,3 +8,8 @@
 }
 
 */
+
+/* apply font to everything */
+* {
+    @apply font-mono;
+}

@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <nav className="bg-lighter-beige">
                 <div className="flex justify-center items-center h-16">
-                    <div className="flex gap-x-8">
+                    <div className="flex w-full max-w-2xl p-4 gap-x-8 items-center justify-center">
                         <div>
                             <a href="/" className="text-black font-mono">
                                 Eric Wang
