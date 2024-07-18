@@ -11,5 +11,5 @@
 
 /* apply font to everything */
 * {
-    @apply font-mono;
+    @apply font-serif;
 }
