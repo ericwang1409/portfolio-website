@@ -32,11 +32,12 @@ export default function ProjectCard({
                 {title}
             </a>
             <p className="text-gray-600 mt-2">{description}</p>
+            {/* add github icon */}
             <a
                 href={link}
                 className="inline-block mt-4 px-3 py-1 text-sm text-gray-800 bg-gray-200 rounded hover:bg-gray-300"
             >
-                Source
+                Github
             </a>
         </div>
     )

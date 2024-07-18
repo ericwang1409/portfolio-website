@@ -15,22 +15,40 @@ export default function Home() {
                     </p>
                     <div className="grid gap-4 md:grid-cols-2 mt-6">
                         <ProjectCard
-                            title="Project 1"
-                            description="This is a project description"
-                            link="www.google.com"
-                            year="2022"
+                            title="Time-Out"
+                            description="An app to remind you to rest your eyes. Work in progress!"
+                            link="https://github.com/ericwang1409/time-out"
+                            year="2024"
                         />
                         <ProjectCard
-                            title="Project 2"
-                            description="This is a project description"
-                            link="www.google.com"
-                            year="2022"
+                            title="Personal Website"
+                            description="This website! Built with Next.js and Tailwind CSS."
+                            link="https://github.com/ericwang1409/portfolio-website"
+                            year="2024"
                         />
                         <ProjectCard
-                            title="Project 2"
-                            description="This is a project description"
-                            link="www.google.com"
-                            year="2022"
+                            title="A Small Issue"
+                            description="A pokemon-style open-world RPG story game that encapsulates our views and emotions towards AI development."
+                            link="https://github.com/ericwang1409/A-Small-Issue"
+                            year="2024"
+                        />
+                        <ProjectCard
+                            title="Mechanistic Interpretability of Maximum of Variable Length Lists"
+                            description="Final project for Harvard Neuro 240 class. I practiced mechanistic interpretability on a simple transformer model trained to take the maximum of variable length lists."
+                            link="https://github.com/ericwang1409/neuro240_final"
+                            year="2024"
+                        />
+                        <ProjectCard
+                            title="TaiYo! Solver"
+                            description="Recreation of the famous Suika game in Python. Also includes a solver trained with deep reinforcement learning."
+                            link="https://github.com/ericwang1409/taiyo-solver"
+                            year="2023"
+                        />
+                        <ProjectCard
+                            title="Wakey!"
+                            description="A social alarm clock app that keeps you and your friends accountable for waking up on time."
+                            link="https://github.com/ericwang1409/Wakey"
+                            year="2023"
                         />
                         {/* Add more ProjectCard components as needed */}
                     </div>
