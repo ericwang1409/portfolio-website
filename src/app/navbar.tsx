@@ -21,19 +21,23 @@ const Navbar = () => {
                             Eric Wang
                         </a>
                     </div>
-                    <div className="flex space-x-8">
-                        <a href="/projects" className="text-black">
+                    <div className="flex space-x-1">
+                        <a
+                            href="/projects"
+                            className="text-black px-4 py-2 rounded-2xl hover:bg-white"
+                        >
                             Projects
                         </a>
                         <a
-                            href="https://github.com/ericwang1409/resume/blob/main/Resume%20-%20Eric%20Wang.pdf"
-                            className="text-black"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="/resume.pdf"
+                            className="text-black px-4 py-2 rounded-2xl hover:bg-white"
                         >
                             Resume
                         </a>
-                        <a href="/" className="text-black">
+                        <a
+                            href="/"
+                            className="text-black px-4 py-2 rounded-2xl hover:bg-white"
+                        >
                             Blog
                         </a>
                     </div>
